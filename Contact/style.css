@@ -1,0 +1,34 @@
+/*Remove default margin and padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;   /* Remove Underline effect */
+    color: inherit;          
+}
+/*Styling for Navbar*/
+#headerSection{
+    background-color: rgb(201, 26, 108);
+    color: aliceblue;
+}
+#logo{
+    font-size: 35px;
+    padding: 15px;
+}
+ul{
+    list-style: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.Navoptions{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+

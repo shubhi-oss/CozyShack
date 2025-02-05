@@ -1,0 +1,57 @@
+/*Remove default margin and padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;   /* Remove Underline effect */
+    color: inherit;          
+}
+/*Styling for Navbar*/
+#headerSection{
+    background-color: rgb(201, 26, 108);
+    color: aliceblue;
+}
+#logo{
+    font-size: 35px;
+    padding: 15px;
+}
+ul{
+    list-style: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+.Navoptions{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    /* padding: 10px; */
+    margin-top: 15px
+    ;
+}
+.Navoptions li:hover{                       /* Added Hover effect for Navbar options*/
+    color:rgb(222, 65, 138);
+    border: 2px solid cornsilk;
+    background: #ffffff;
+    /* font-size: 20px; */
+    border-radius: 2px;
+}
+.FirstImgBox{                               /* Container for*/
+    margin-top: 25px;
+    padding: 20px;
+    width: 1480px;
+
+    background-color: rgb(222, 65, 138);
+    border-radius: 20px;
+}
+#FirstImage{
+    width: 500px;
+    border-radius: 20px;
+}
+
+
